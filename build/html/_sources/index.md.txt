@@ -30,7 +30,7 @@ parts/articles/project-human-rights-law/index
 
 ## Notebooks
 
-:::{raw} html
+:::{raw} Notebooks
 
     <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
