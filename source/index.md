@@ -30,7 +30,7 @@ parts/articles/project-human-rights-law/index
 
 ## Notebooks
 
-:::{raw} Notebooks
+:::{raw} html
 
     <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
@@ -38,7 +38,7 @@ parts/articles/project-human-rights-law/index
 :::{card}
 
 ```{toctree}
-:caption: Rail
+:caption: Notebooks
 :maxdepth: 1
 
 parts/freight/FreightRail.ipynb
