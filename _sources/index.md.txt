@@ -1,30 +1,34 @@
 ---
 title: Justin Napolitano
 ---
-# freight.jnapolitano.io 
+# journal.jnapolitano.io 
 :::{raw} html
 
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 :::
 
+## Articles
 
-:::{admonition} About
+:::{raw} html
 
-freight.jnapolitano.io is a website that analyzes freight and transport.  I am expanding this project daily. 
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
 
-<<<<<<< HEAD
+:::{card}
+
 ```{toctree}
-:caption: Freight Notebooks
+:caption: Articles
 :maxdepth: 1
 
-parts/freight/FreightRail.ipynb
+parts/articles/project-evolution-of-ngos/index
+parts/articles/project-supcourt-masterpiececake/index
+parts/articles/project-kurdish-conflict/index
+parts/articles/project-human-rights-law/index
 ```
-=======
->>>>>>> f62415f08c527e2e74287507c7850311d2da9e56
 :::
 
 
-## Rail 
+## Notebooks
 
 :::{raw} html
 
