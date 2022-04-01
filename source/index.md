@@ -1,71 +1,45 @@
 ---
 title: Justin Napolitano
 ---
-# analysis.jnapolitano.io 
+# freight.jnapolitano.io 
 :::{raw} html
 
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 :::
 
-## Articles
 
-:::{raw} html
+:::{admonition} About
 
-    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
-:::
+freight.jnapolitano.io is a website that analyzes freight and transport.  I am expanding this project daily. 
 
-:::{card}
-
-```{toctree}
-:caption: Articles
-:maxdepth: 1
-
-parts/articles/project-evolution-of-ngos/index
-parts/articles/project-supcourt-masterpiececake/index
-parts/articles/project-kurdish-conflict/index
-parts/articles/project-human-rights-law/index
-```
-:::
-
-## Freight Notebooks
-
-:::{raw} html
-
-    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
-:::
-
-:::{card}
-
+<<<<<<< HEAD
 ```{toctree}
 :caption: Freight Notebooks
 :maxdepth: 1
 
 parts/freight/FreightRail.ipynb
 ```
+=======
+>>>>>>> f62415f08c527e2e74287507c7850311d2da9e56
 :::
 
 
-
-
-## Posts 
-
+## Rail 
 
 :::{raw} html
 
     <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
 
-
 :::{card}
 
 ```{toctree}
-:caption: Posts
-:maxdepth: 2
+:caption: Rail
+:maxdepth: 1
 
-parts/journal/posts
+parts/freight/FreightRail.ipynb
 ```
 :::
-
 
 
 
@@ -102,9 +76,7 @@ parts/contact/index
 :caption: Tables and Indices
 :maxdepth: 2
 
-parts/bibliography/bibliography.md
 genindex
-py-modindex.rst
 ```
 
 :::

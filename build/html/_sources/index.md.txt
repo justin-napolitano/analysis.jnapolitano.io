@@ -1,12 +1,17 @@
 ---
 title: Justin Napolitano
 ---
+<<<<<<< HEAD
 # analysis.jnapolitano.io 
+=======
+# freight.jnapolitano.io 
+>>>>>>> f62415f08c527e2e74287507c7850311d2da9e56
 :::{raw} html
 
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 :::
 
+<<<<<<< HEAD
 ## Articles
 
 :::{raw} html
@@ -28,6 +33,17 @@ parts/articles/project-human-rights-law/index
 :::
 
 ## Freight Notebooks
+=======
+
+:::{admonition} About
+
+freight.jnapolitano.io is a website that analyzes freight and transport.  I am expanding this project daily. 
+
+:::
+
+
+## Rail 
+>>>>>>> f62415f08c527e2e74287507c7850311d2da9e56
 
 :::{raw} html
 
@@ -37,7 +53,11 @@ parts/articles/project-human-rights-law/index
 :::{card}
 
 ```{toctree}
+<<<<<<< HEAD
 :caption: Freight Notebooks
+=======
+:caption: Rail
+>>>>>>> f62415f08c527e2e74287507c7850311d2da9e56
 :maxdepth: 1
 
 parts/freight/FreightRail.ipynb
@@ -46,6 +66,7 @@ parts/freight/FreightRail.ipynb
 
 
 
+<<<<<<< HEAD
 
 ## Posts 
 
@@ -69,6 +90,8 @@ parts/journal/posts
 
 
 
+=======
+>>>>>>> f62415f08c527e2e74287507c7850311d2da9e56
 ## Contact
 
 :::{raw} html
@@ -102,9 +125,13 @@ parts/contact/index
 :caption: Tables and Indices
 :maxdepth: 2
 
+<<<<<<< HEAD
 parts/bibliography/bibliography.md
 genindex
 py-modindex.rst
+=======
+genindex
+>>>>>>> f62415f08c527e2e74287507c7850311d2da9e56
 ```
 
 :::
