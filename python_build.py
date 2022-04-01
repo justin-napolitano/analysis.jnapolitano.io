@@ -13,7 +13,7 @@ class config:
 
 
     def cname_init(self):
-        cname = "journal.jnapolitano.io"
+        cname = "analysis.jnapolitano.io"
         return cname
 
 
