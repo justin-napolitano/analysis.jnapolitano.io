@@ -39,9 +39,10 @@ parts/articles/project-human-rights-law/index
 
 ```{toctree}
 :caption: Notebooks
-:maxdepth: 1
+:maxdepth: 2
+:glob:
 
-parts/freight/FreightRail.ipynb
+parts/freight/*
 ```
 :::
 
