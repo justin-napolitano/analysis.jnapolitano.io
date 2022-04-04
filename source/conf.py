@@ -75,6 +75,8 @@ extensions = [
 ]
 
 #Cautodoc Setup
+timeout= 10000
+execution_timeout = -1
 
 cautodoc_root = os.path.abspath("codebase/project-c-reference")
 
