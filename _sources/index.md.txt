@@ -28,7 +28,7 @@ parts/articles/project-human-rights-law/index
 :::
 
 
-## Notebooks
+## Freight Logistics Analysis
 
 :::{raw} html
 
@@ -38,7 +38,7 @@ parts/articles/project-human-rights-law/index
 :::{card}
 
 ```{toctree}
-:caption: Notebooks
+:caption: Freight Logistics Analysis
 :maxdepth: 2
 :glob:
 
@@ -46,6 +46,23 @@ parts/freight/*
 ```
 :::
 
+## Energy Analysis
+
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+:::
+
+:::{card}
+
+```{toctree}
+:caption: Energy Analysis
+:maxdepth: 2
+:glob:
+
+parts/energy/*
+```
+:::
 
 
 ## Contact
