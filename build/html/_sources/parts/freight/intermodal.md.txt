@@ -11,7 +11,7 @@ kernelspec:
   name: finance
 ---
 
-# Intermodal Freight Analysis.
+# Intermodal Freight Analysis
 
 ```{code-cell} ipython3
 
@@ -25,12 +25,21 @@ import contextily as cx
 ## Air to Truck Facilities Data
 
 ```{code-cell} ipython3
-gisfilepath = "/Users/jnapolitano/Projects/rail-mapping/intermodal/Intermodal_Freight_Facilities_Air-to-Truck.geojson"
+
+gisfilepath = "/Users/jnapolitano/Projects/freight.jnapolitano.io/source/data/intermodal/Intermodal_Freight_Facilities_Air-to-Truck.geojson"
 
 air_to_truck_df = gpd.read_file(gisfilepath)
 
 air_to_truck_df
 ```
+
+```{eval-rst}
+
+.. index::
+   single: Air to Truck Facility Map
+
+```
+
 ### Air to Truck Facility Map
 ```{code-cell} ipython3
 air_to_truck_df.explore()
@@ -39,11 +48,18 @@ air_to_truck_df.explore()
 ## Intermodal Freight Marine Role On/Role Off Data
 
 ```{code-cell} ipython3
-gisfilepath = "/Users/jnapolitano/Projects/rail-mapping/intermodal/Intermodal_Freight_Facilities_Marine_Roll-on_Roll-off.geojson"
+gisfilepath = "/Users/jnapolitano/Projects/freight.jnapolitano.io/source/data/intermodal/Intermodal_Freight_Facilities_Marine_Roll-on_Roll-off.geojson"
 
 roll_on_off_df = gpd.read_file(gisfilepath)
 
 roll_on_off_df
+```
+
+```{eval-rst}
+
+.. index::
+   single: Marine Roll On/ Roll Off Map
+
 ```
 
 ### Marine Roll on/Role Off Map
@@ -64,11 +80,18 @@ https://geo.dot.gov/server/rest/services/NTAD/Intermodal_Freight_Facilities_Rail
 Every facility is assumed to be served by both rail and truck, and those facilities which support port operations, the name of the port is also identified
 
 ```{code-cell} ipython3
-gisfilepath = "/Users/jnapolitano/Projects/rail-mapping/intermodal/Intermodal_Freight_Facilities_RailTOFCCOFC.geojson"
+gisfilepath = "/Users/jnapolitano/Projects/freight.jnapolitano.io/source/data/intermodal/Intermodal_Freight_Facilities_RailTOFCCOFC.geojson"
 
 rail_to_all_df = gpd.read_file(gisfilepath)
 
 rail_to_all_df
+```
+
+```{eval-rst}
+
+.. index::
+   single: Rail Freight Stations Map
+
 ```
 
 ### Rail Freight Stations Map

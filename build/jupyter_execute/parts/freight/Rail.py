@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 import geopandas as gpd
 import folium
 import contextily as cx
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
 # The error above is unimportant for my use case.  It is an unfortunate reality of Python Programming that package updates can break compatability layers.
@@ -31,7 +32,7 @@ import contextily as cx
 # In[2]:
 
 
-shapefilepath = "/Users/jnapolitano/Projects/rail-mapping/North_American_Rail_Lines/North_American_Rail_Lines.shp"
+shapefilepath = "/Users/jnapolitano/Projects/freight.jnapolitano.io/source/data/North_American_Rail_Lines/North_American_Rail_Lines.shp"
 
 line_df = gpd.read_file(shapefilepath)
 
@@ -60,13 +61,21 @@ line_df.crs
 line_wm = line_df.to_crs(epsg=3857)
 
 
-# ## Plotting Rail Lines in the United States, Mexico, and Canada
+# ```{eval-rst}
+# 
+# .. index::
+#    single: Rail Lines North America Map
+# 
+# ```
+
+# ## Rail Lines in US, Canada, Mexico Map by Rail Owner
 
 # In[5]:
 
 
-ax = line_wm.plot(figsize=(10, 10), alpha=0.5, edgecolor='k', markersize = .5)
-cx.add_basemap(ax, zoom=4)
+
+us_map = line_wm.plot(column='RROWNER1',figsize=(15,15))
+cx.add_basemap(us_map, zoom=6)
 
 
 # ### Data Fields
@@ -77,7 +86,7 @@ cx.add_basemap(ax, zoom=4)
 line_wm.columns
 
 
-# ## Map of Texas Rail Lines
+# ## Texas Rail Lines Data
 # 
 # Texas is an important freight destination.  The state possess many natural important ports and freight stations.  
 # 
@@ -102,6 +111,13 @@ texas_lines_df = line_wm.loc[line_wm['STFIPS'] == '48']
 #print(texas_lines_df)
 
 
+# ```{eval-rst}
+# 
+# .. index::
+#    single: Texas Rail Map Non-Interactive 
+# 
+# ```
+
 # ### Texas Non-Interactive Map
 
 # In[8]:
@@ -111,12 +127,31 @@ ax = texas_lines_df.plot(figsize=(10, 10), alpha=0.5, edgecolor='k', markersize 
 cx.add_basemap(ax, zoom=6)
 
 
-# ### Interactive Map.
+# ```{eval-rst}
+# 
+# .. index::
+#    single: Texas Rail Map Interactive
+# 
+# ```
+
+# ### Texas Rail Map Interactive Map.
 
 # In[9]:
 
 
-texas_lines_df.explore()
+#texas_lines_df.explore()
+
+texas_map = texas_lines_df.explore(column="RROWNER1", # make choropleth based on "BoroName" column
+     popup=True, # show all values in popup (on click)
+     tiles="CartoDB positron", # use "CartoDB positron" tiles
+     cmap="Set1", # use "Set1" matplotlib colormap
+     #style_kwds=dict(color="black"),
+     marker_kwds= dict(radius=6),# use black outline)
+     #scheme = 'EqualInterval',
+     #k = 4
+
+)
+texas_map
 
 
 # 

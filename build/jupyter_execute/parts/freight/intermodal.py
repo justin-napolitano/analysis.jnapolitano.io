@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Intermodal Freight Analysis.
+# # Intermodal Freight Analysis
 
 # In[1]:
 
@@ -18,13 +18,20 @@ import contextily as cx
 # In[2]:
 
 
-gisfilepath = "/Users/jnapolitano/Projects/rail-mapping/intermodal/Intermodal_Freight_Facilities_Air-to-Truck.geojson"
+gisfilepath = "/Users/jnapolitano/Projects/freight.jnapolitano.io/source/data/intermodal/Intermodal_Freight_Facilities_Air-to-Truck.geojson"
 
 air_to_truck_df = gpd.read_file(gisfilepath)
 
 air_to_truck_df
 
 
+# ```{eval-rst}
+# 
+# .. index::
+#    single: Air to Truck Facility Map
+# 
+# ```
+# 
 # ### Air to Truck Facility Map
 
 # In[3]:
@@ -38,13 +45,20 @@ air_to_truck_df.explore()
 # In[4]:
 
 
-gisfilepath = "/Users/jnapolitano/Projects/rail-mapping/intermodal/Intermodal_Freight_Facilities_Marine_Roll-on_Roll-off.geojson"
+gisfilepath = "/Users/jnapolitano/Projects/freight.jnapolitano.io/source/data/intermodal/Intermodal_Freight_Facilities_Marine_Roll-on_Roll-off.geojson"
 
 roll_on_off_df = gpd.read_file(gisfilepath)
 
 roll_on_off_df
 
 
+# ```{eval-rst}
+# 
+# .. index::
+#    single: Marine Roll On/ Roll Off Map
+# 
+# ```
+# 
 # ### Marine Roll on/Role Off Map
 
 # In[5]:
@@ -67,13 +81,20 @@ roll_on_off_df.explore()
 # In[6]:
 
 
-gisfilepath = "/Users/jnapolitano/Projects/rail-mapping/intermodal/Intermodal_Freight_Facilities_RailTOFCCOFC.geojson"
+gisfilepath = "/Users/jnapolitano/Projects/freight.jnapolitano.io/source/data/intermodal/Intermodal_Freight_Facilities_RailTOFCCOFC.geojson"
 
 rail_to_all_df = gpd.read_file(gisfilepath)
 
 rail_to_all_df
 
 
+# ```{eval-rst}
+# 
+# .. index::
+#    single: Rail Freight Stations Map
+# 
+# ```
+# 
 # ### Rail Freight Stations Map
 
 # In[7]:
