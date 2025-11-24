@@ -21,6 +21,13 @@ seoSecondaryKeywords:
   - jupyter notebook projects
   - data analysis workflows
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 0.95
+topicFamilyNotes: >-
+  The post primarily describes scripts and tooling to automate backup to Dropbox and git workflows
+  for Jupyter Notebook projects, aligning best with the 'automation' family which focuses on
+  automating build, deployment, and git workflows. Although datascience is related, this post
+  emphasizes tooling automation over data analysis itself.
 ---
 
 # Technical Overview of analysis.jnapolitano.io
@@ -70,4 +77,5 @@ Although contents are not detailed, its presence suggests automation capabilitie
 This repository is a practical toolkit for managing analysis projects with a focus on safeguarding output artifacts and simplifying version control. It reflects a pragmatic approach to common developer needs in data analysis workflows, balancing automation with minimal dependencies.
 
 Future improvements should focus on configuration flexibility and modernization of the Python environment.
+
 
