@@ -1,12 +1,27 @@
 ---
-slug: "github-analysis.jnapolitano.io"
-title: "analysis.jnapolitano.io"
-repo: "justin-napolitano/analysis.jnapolitano.io"
-githubUrl: "https://github.com/justin-napolitano/analysis.jnapolitano.io"
-generatedAt: "2025-11-23T08:35:03.250385Z"
-source: "github-auto"
+slug: github-analysis.jnapolitano.io
+title: Backup and Git Automation for Jupyter Notebook Analysis Projects
+repo: justin-napolitano/analysis.jnapolitano.io
+githubUrl: https://github.com/justin-napolitano/analysis.jnapolitano.io
+generatedAt: '2025-11-23T08:35:03.250385Z'
+source: github-auto
+summary: >-
+  Technical overview of a toolkit automating HTML backups to Dropbox and simplifying Git workflows
+  in Jupyter Notebook data analysis projects.
+tags:
+  - python
+  - dropbox
+  - git
+  - jupyter-notebook
+  - automation
+  - backup
+seoPrimaryKeyword: html backup to dropbox
+seoSecondaryKeywords:
+  - git automation
+  - jupyter notebook projects
+  - data analysis workflows
+seoOptimized: true
 ---
-
 
 # Technical Overview of analysis.jnapolitano.io
 
@@ -55,3 +70,4 @@ Although contents are not detailed, its presence suggests automation capabilitie
 This repository is a practical toolkit for managing analysis projects with a focus on safeguarding output artifacts and simplifying version control. It reflects a pragmatic approach to common developer needs in data analysis workflows, balancing automation with minimal dependencies.
 
 Future improvements should focus on configuration flexibility and modernization of the Python environment.
+
