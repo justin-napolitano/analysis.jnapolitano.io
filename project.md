@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/analysis.jnapolitano.io
 generatedAt: '2025-11-24T21:33:54.779Z'
 source: github-auto
 summary: >-
-  Explore Jupyter Notebook analyses on political, legal, and logistics topics
-  with automated deployment and backup solutions.
+  Explore Jupyter Notebook analyses on political, legal, and logistics topics with automated
+  deployment and backup solutions.
 tags:
   - jupyter
   - sphinx
@@ -26,8 +26,8 @@ seoSecondaryKeywords:
   - human rights research
   - Sphinx deployment
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: datascience
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -148,4 +148,5 @@ analysis.jnapolitano.io/
 ---
 
 *Note: Some scripts and files have limited inline documentation; users are encouraged to review and adapt them as needed.*
+
 
