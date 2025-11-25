@@ -1,13 +1,13 @@
 ---
 slug: github-analysis.jnapolitano.io
-title: Backup and Git Automation for Jupyter Notebook Analysis Projects
+title: Data Analysis Workflow Automation with Dropbox Backup
 repo: justin-napolitano/analysis.jnapolitano.io
 githubUrl: https://github.com/justin-napolitano/analysis.jnapolitano.io
 generatedAt: '2025-11-23T08:35:03.250385Z'
 source: github-auto
 summary: >-
-  Technical overview of a toolkit automating HTML backups to Dropbox and simplifying Git workflows
-  in Jupyter Notebook data analysis projects.
+  Explore tools for automating data analysis workflows, including HTML backup to
+  Dropbox and streamlined Git operations.
 tags:
   - python
   - dropbox
@@ -15,19 +15,31 @@ tags:
   - jupyter-notebook
   - automation
   - backup
-seoPrimaryKeyword: html backup to dropbox
-seoSecondaryKeywords:
+  - data analysis
+  - Jupyter Notebook
+  - Dropbox SDK
   - git automation
-  - jupyter notebook projects
-  - data analysis workflows
+  - Python scripting
+  - bash scripting
+  - Makefile
+seoPrimaryKeyword: data analysis workflow automation
+seoSecondaryKeywords:
+  - Dropbox backup script
+  - Git commit automation
+  - Python 3.5 upgrade
+  - Jupyter Notebook management
+  - data preservation techniques
 seoOptimized: true
 topicFamily: automation
 topicFamilyConfidence: 0.95
 topicFamilyNotes: >-
-  The post primarily describes scripts and tooling to automate backup to Dropbox and git workflows
-  for Jupyter Notebook projects, aligning best with the 'automation' family which focuses on
-  automating build, deployment, and git workflows. Although datascience is related, this post
-  emphasizes tooling automation over data analysis itself.
+  The post primarily describes scripts and tooling to automate backup to Dropbox
+  and git workflows for Jupyter Notebook projects, aligning best with the
+  'automation' family which focuses on automating build, deployment, and git
+  workflows. Although datascience is related, this post emphasizes tooling
+  automation over data analysis itself.
+kind: project
+id: github-analysis.jnapolitano.io
 ---
 
 # Technical Overview of analysis.jnapolitano.io
