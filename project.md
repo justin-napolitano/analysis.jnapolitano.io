@@ -1,21 +1,31 @@
 ---
 slug: github-analysis-jnapolitano-io
 id: github-analysis-jnapolitano-io
-title: analysis.jnapolitano.io
+title: Jupyter Notebook Analysis Repository for Diverse Topics
 repo: justin-napolitano/analysis.jnapolitano.io
 githubUrl: https://github.com/justin-napolitano/analysis.jnapolitano.io
 generatedAt: '2025-11-24T21:33:54.779Z'
 source: github-auto
 summary: >-
-  A comprehensive collection of Jupyter Notebook-based analyses and
-  documentation focused on political, legal, freight logistics, energy, and
-  human rights topics. This repository contains scripts, notebooks, and
-  resources to build, deploy, and back up the documentation website
-  journal.jnapolitano.io.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore a Jupyter Notebook-based repository for analyses on political, legal,
+  and logistical topics with automated documentation and backup.
+tags:
+  - jupyter
+  - sphinx
+  - python
+  - dropbox
+  - makefile
+  - bash
+  - data analysis
+  - documentation
+seoPrimaryKeyword: jupyter notebook analysis repository
+seoSecondaryKeywords:
+  - automated documentation
+  - data backup with dropbox
+  - political analysis notebooks
+  - freight logistics analysis
+  - energy topic research
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
